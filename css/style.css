@@ -1,0 +1,534 @@
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+.clearfix{
+    clear: both;
+}
+.header .slider{
+    background-image: url(../project/12.jpeg);
+    background-size: cover;
+    height: 705px;
+}
+.header .slider .intro {
+   padding-top: 275px;
+  height: 600px;
+     text-align: center;
+}
+.header .slider .intro h2{
+   margin: 0px auto;
+   color: black;
+   width: 600px;
+   padding: 5px;
+   font-size: 50px;
+   border-top: 4px solid #fff;
+   border-bottom: 4px solid #fff;
+
+}
+.header .slider .intro button{
+   margin: 30px ;
+   font-size: 20px;
+   border-top: 3px solid #fff;
+   border-bottom: 3px solid #fff;
+   width: 140px;
+   padding: 2px 10px;
+   background: none;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.header .navbar{
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+}
+.header .navbar h2 span{
+    color: #2ecc71;
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    overflow: hidden;
+  
+}
+.header .navbar ul li{
+    float: left;
+    padding-left: 10px;
+  text-align: center;
+}
+.header .navbar ul li a{
+   color: #fff;
+   text-decoration: none;
+}
+header .navbar ul li a:hover,.header .navbar ul li.active a{
+  color:#30B576
+}
+.deactive,.active{
+    padding-top:10px;
+}
+.features 
+{
+overflow: hidden;
+padding-top: 40px;
+padding-bottom: 70px;
+}
+.features .feat{
+    float:left;
+    width:33.333333333333% ;
+    height: 150px;
+}
+.features .feat h2{
+   color: #555;
+}
+.features .feat p{
+   line-height: 1.7;
+   color: #888;
+}
+.About-me {
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.About-me .image{
+    width: 40%;
+    float:left;
+}
+.About-me .image img{
+    width: 100%;
+}
+.About-me .info{
+    float: left;
+    width: 55%;
+}
+.About-me .info h2{
+    margin: 12px 0px 20px 40px;
+}
+.About-me .info > p{
+    margin: 0px 0px 10px 40px;
+}
+.About-me .info p{
+    margin: 0px 0px 10px 40px;
+    color: #888;
+    line-height: 1.1;
+}
+.About-me .info > p:last-of-type{
+    margin: 30px 0px 10px 40px;
+}
+.About-me .info .hobbies{
+   overflow: hidden;
+   margin: 0px 0px 0px 40px;
+}
+.About-me .info .hobbies h3{
+  color: #555;
+}
+.About-me .info .hobbies > div{
+   width: 50%;
+   float: left;
+   min-height: 80px;
+  
+}
+.Skills
+{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.Skills .my-Skills h2{
+margin: 12px 0px 20px 40px;
+}
+.Skills .my-Skills p{
+margin: 0px 0px 10px 40px;
+    color: #888;
+    line-height: 1.7;
+}
+.Skills .my-Skills p:last-of-type{
+    margin: 30px 0px 10px 40px;
+}
+.Skills .my-Skills button{
+    background: none;
+    border: 3px solid #2Dcc70;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    color:  #2Dcc70;
+    width: 30%;
+}
+.Skills .progress .tech{
+  margin-left: 50px;
+}
+.Skills .progress h3{
+  color: #555;
+}
+.Skills .progress .tech div{
+ background-color: #f2f2f2;
+ height: 30px;
+}
+.Skills .progress .tech div span{
+ background-color: #2Dcc70;
+ height: 25px;
+ display: block;
+ text-align: right;
+ color: #fff;
+ padding-top: 4.7px;
+ font-weight: bold;
+}
+.Skills .progress .tech div .s1{
+ width: 83%;
+}
+.Skills .progress .tech div .s2{
+ width: 100%;
+}
+.Skills .progress .tech div .s3{
+ width: 73%;
+}
+.Skills .progress .tech div .s4{
+ width: 63%;
+}
+.Skills .my-Skills,.Skills .progress
+{
+    float: left;
+    width: 50%;
+}
+.Resume{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.Resume h2{
+   text-transform: uppercase;
+   font-weight: bold;
+   color: #666;
+}
+.Resume button{
+    background-color: #fff;
+    border: 3px solid #2Dcc70;
+    color: #2Dcc70;
+    width: 30%;
+    margin-top: 30px;;
+}
+.Resume p{
+   line-height: 1.6;
+   color: #666;
+   padding: 0 40px;
+}
+.education
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.education h2{
+margin: 12px 0px 20px 40px;
+}
+.education .main p{
+    margin: 0px 0px 10px 40px;
+    color: #888;
+    line-height: 1.7;
+}
+.education .main p:last-of-type{
+    margin: 30px 0px 10px 40px;
+}
+.education .main,.education .myexp
+{
+    float: left;
+    width: 45%;
+    margin-left: 20px;
+}
+.myexp
+{
+    margin-top: 40px;
+}.education .myexp p{
+    color: #888;
+    line-height: 1.7;
+}
+
+.education .myexp span
+{
+    color: #999;
+}
+.education .myexp button
+{
+    margin-top: 10px;
+    width: 20%;
+    display: block;
+}
+.education .myexp hr
+{
+    margin: 20px 0px;
+    height: 1px;
+    background-color: #999;
+  border: 0px;
+}
+.Testimonials{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.Testimonials q{
+    font: italic bold 18px/1.8 Tahoma , Arial;
+    color: #888;
+}
+.Testimonials h3{
+    color: #777;
+}
+.Testimonials ul{
+   text-align: center;
+   list-style: none;
+   padding-left: 0;
+}
+.Testimonials ul li{
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2Dcc70;
+    display: inline-block;
+       cursor: pointer;
+}
+.Testimonials ul li.active{
+   background-color: #2Dcc70;
+   height: 5px;
+}
+.Testimonials ul li:hover{
+   background-color: #2Dcc70;
+}
+.Portfolio
+{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.Portfolio h3
+{
+   text-align: center;
+   font-weight: bold;
+   text-transform: uppercase;
+  color: #777;
+}
+.Portfolio p
+{
+   text-align: center;
+    line-height: 1.7;
+   color: #666;
+   margin-bottom: 30px;
+}
+.our-work {
+    overflow: hidden;
+}
+.our-work >div{
+  float: left;
+  margin-bottom: 10px;
+  width: 33.33333333333%;
+}
+.our-work img{
+    width: 350px;
+    height: 350px;
+}
+.ContactMe
+{
+    background-color: #252f31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.ContactMe h3
+{
+    color: #FFF;
+    margin-top: 50px;
+}
+.ContactMe p,address
+{
+    color: #6a6e71;
+    line-height: 1.7;
+}
+.ContactMe p strong
+{
+    color: #D1D6DA;
+}
+.ContactMe .form{
+    margin-top: 50px;
+}
+.ContactMe .info,.ContactMe .form
+{
+    float: left;
+    width: 40%;
+    margin-left: 40px;
+}
+.ContactMe .form label
+{
+    display: block;
+    color:  #D1D6DA;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.ContactMe .form input[type="text"]
+{
+width: 100%;
+}
+.ContactMe .form input
+{
+    background-color:  #4B5557;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    width: 96%;
+}
+.ContactMe .form textarea
+{
+    background-color:  #4B5557;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    width: 96%;
+    height: 300px;
+}
+.ContactMe .form input[type="submit"]
+{
+    background-color:  #191e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    width: 50%;
+    margin-top: 10px;
+}
+.footer{
+    background-color: #191e22;
+    color: #6a6e71;
+    text-align: center;
+    padding: 20px 0px;
+}
+.footer ul{
+   list-style: none;
+   padding: 0;
+   margin: 10px 0 0;
+}
+.footer ul li{
+display: inline-block;
+}
+
+
